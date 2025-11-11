@@ -1,13 +1,14 @@
 "use client";
 import React from "react";
-import SkiperCard from "../components/ui/skiper-card";
-import img1 from "../public/img1.jpg";
-import img2 from "../public/img2.jpg";
-import img3 from "../public/img3.jpg";
-import img4 from "../public/img4.jpg";
-import img5 from "../public/img5.jpg";
-import img6 from "../public/img6.jpg";
-import { cn } from "@/lib/utils";
+import ThemeToggleButton from "../components/ui/theme-toggle-button";
+// import SkiperCard from "../components/ui/skiper-card";
+// import img1 from "../public/img1.jpg";
+// import img2 from "../public/img2.jpg";
+// import img3 from "../public/img3.jpg";
+// import img4 from "../public/img4.jpg";
+// import img5 from "../public/img5.jpg";
+// import img6 from "../public/img6.jpg";
+// import { cn } from "@/lib/utils";
 
 // import CardCarousel from "../components/ui/card-carousel";
 // import TextScroll from "../components/ui/text-scroll";
@@ -33,7 +34,8 @@ const page = () => {
   // ];
   return (
     <div className=" ">
-      <SkiperCard
+      <ThemeToggleButton variant="circle" start="top-right" />
+      {/* <SkiperCard
         title="Learing the new Ui library"
         description="Lage raho ache se"
         step2img1Class={cn(
@@ -64,7 +66,7 @@ const page = () => {
           step4light: img3,
           alt: "Image is here",
         }}
-      />
+      /> */}
 
       {/* <CardCarousel
         autoplayDelay={2000}
